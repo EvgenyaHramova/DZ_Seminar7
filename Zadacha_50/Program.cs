@@ -49,7 +49,7 @@ void Element(int m, int n)
             {
                 if (i == m && j == n)
                 {
-                    Console.WriteLine($"\nЗначение элемента в позиции, веденной пользователем, равно   {array[i, j]} ");
+                    Console.WriteLine($"\nЗначение элемента в позиции, введенной пользователем, равно   {array[i, j]} ");
                 }
             }
         }
