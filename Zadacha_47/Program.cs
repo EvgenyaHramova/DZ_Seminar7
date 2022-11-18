@@ -25,7 +25,7 @@ void NewArray(int m, int n)
             {
                 Console.Write(array[i, j] + "\t");
             }
-            
+
         }
         Console.WriteLine();
     }
@@ -36,5 +36,5 @@ int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Ведите количество столбцов N в двумерном массиве:  ");
 int n = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine($"\nСгенерирован следующий двумерный массив вещественных чисел:  ");
+Console.WriteLine($"\nСгенерирован следующий двумерный массив вещественных чисел:");
 NewArray(m, n);
