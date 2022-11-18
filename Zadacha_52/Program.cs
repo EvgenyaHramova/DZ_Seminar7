@@ -53,6 +53,6 @@ int[,] array = new int[m, n];
 Console.WriteLine($"\nСгенерирован следующий двумерный массив чисел:");
 Array(array);
 
-Console.Write($"\nСреднее арифметическое элементов каждого столбца в массиву: ");
+Console.Write($"\nСреднее арифметическое элементов каждого столбца в массиве: ");
 Console.WriteLine();
 ArithmeticMean(array, m);
