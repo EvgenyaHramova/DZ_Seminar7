@@ -17,7 +17,7 @@ void NewArray(int m, int n)
         for (int j = 0; j < n; j++)
         {
             array[i, j] = Math.Round((new Random().Next(-20, 21) + new Random().NextDouble()), 2);
-            if (array[i, j] > 0)
+            if (array[i, j] >= 0)
             {
                 Console.Write($" {array[i, j]}\t");
             }
@@ -31,9 +31,9 @@ void NewArray(int m, int n)
     }
 }
 
-Console.Write("Ведите количество строк M в двумерном массиве:  ");
+Console.Write("Введите количество строк M в двумерном массиве:  ");
 int m = Convert.ToInt32(Console.ReadLine());
-Console.Write("Ведите количество столбцов N в двумерном массиве:  ");
+Console.Write("Введите количество столбцов N в двумерном массиве:  ");
 int n = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine($"\nСгенерирован следующий двумерный массив вещественных чисел:");
